@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.readcsv.MainActivity" >
+
+
+    <!--<com.jjoe64.graphview.GraphView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/graph" />-->
+
+    <Button
+        android:id="@+id/LineGraph"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="LineHandler"
+        android:text="Line Graph"/>
+    <LinearLayout
+        android:id="@+id/Chart"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</RelativeLayout>
